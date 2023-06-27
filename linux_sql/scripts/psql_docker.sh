@@ -6,7 +6,7 @@ cmd=$1
 db_username=$2
 db_password=$3
 
-sudo systemctl status docker || systemctl start docker #todo
+sudo systemctl status docker || systemctl start docker
 
 docker container inspect jrvs-psql
 container_status=$?
@@ -20,7 +20,7 @@ case $cmd in
 	fi
 
   if [ $# -ne 3 ]; then
-    echo 'Create requires username and password'
+    echo 'Illegal number of parameters, create requires username and password.'
     exit 1
   fi
  
