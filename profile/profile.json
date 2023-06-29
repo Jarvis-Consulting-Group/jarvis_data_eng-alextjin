@@ -1,0 +1,121 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Scholarship",
+        "Dean's List 2019 - 2020",
+        "Joseph Lau Student Exchange Awards",
+        "Hong Kong Hua-Yan Buddhist Association Exchange Scholarships",
+        "GPA: 3.54/4.0"
+      ],
+      "degree": "Bachelor of Business Administration",
+      "department": "Department of Management",
+      "duration": "2016-2020",
+      "school_name": "City University of Hong Kong"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_demo",
+  "highlighted_projects": [
+    {
+      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
+      "name": "Web app for resturant"
+    },
+    {
+      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "git_url": null,
+      "name": "Machine Learning"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Developed four different scripts which facilitate the Linux Cluster Administration (LCA) team workload in tracking the platform performance. The scripts support users in setting up and controlling a Postgres Database in Docker, creating tables for data storage and analytic purposes, and extracting the hardware details and resource usage.",
+      "git_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-alextjin/tree/master/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": [
+        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "",
+      "git_url": "/springboot",
+      "name": "Springboot App"
+    },
+    {
+      "description": "",
+      "git_url": "/python_data_anlytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "",
+      "git_url": "/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "",
+      "git_url": "/cloud_devops",
+      "name": "Cloud/DevOps"
+    }
+  ],
+  "name": "Alex Tjin",
+  "others": [
+    {
+      "bullets": [
+        "Microsoft Certified: Azure Data Fundamentals",
+        "IBM Agile Explorer"
+      ],
+      "title": "Certificates"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Engaged in various projects and bolstered my skills and proficiency in data engineering, encompassing Linux, SQL, Python, Spark, and Hadoop. Having hands-on experience in Git \u0026 Docker.",
+      "duration": "2023-present",
+      "title": "Data Engineer"
+    },
+    {
+      "company": "IBM",
+      "description": "Leveraged tools like Informatica, Apache Airflow, and AWS services to architect scalable and efficient data integration workflows, encompassed ingesting data from various sources (e.g csv, json, xml), employing Python in data cleansing and transformation, automated routine tasks in Bash. Also, maintained data warehouse integrity and swiftly rectify defects. Built report in Cognos \u0026 SQL.",
+      "duration": "2021-2023",
+      "title": "Data Engineer"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Airflow",
+      "AWS",
+      "Redshift",
+      "Oracle",
+      "Spark"
+    ],
+    "familiar": [
+      "VBA",
+      "Data Visualisation",
+      "Regression Testing",
+      "Docker",
+      "Git"
+    ],
+    "proficient": [
+      "SQL",
+      "Python",
+      "Linux",
+      "Bash Sccripting",
+      "Data Warehouse",
+      "Data Pipeline",
+      "Informatica"
+    ]
+  },
+  "summary": "Dedicated Data Engineer with 3+ years of overall IT development experience in data ingestion and integration. Skills cover data pipelines \u0026 ETL development. Proficient in Python, SQL, database and Linux. Also, with hands-on experience in ETL tools Informatica, Airflow and computing in AWS. Fluent in English and Chinese. An astute and unflappable individual, who is eager to learn and loves to take challenges, craves chances to explore new trends and technological advancements in the data field. To make data accessible, pivotal and reliable in every decision-making."
+}
