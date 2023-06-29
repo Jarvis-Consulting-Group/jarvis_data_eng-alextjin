@@ -17,10 +17,20 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/masterhttps://github.com/Jarvis-Consulting-Group/jarvis_data_eng-alextjin/tree/master/linux_sql)]: Developed four different scripts which facilitate the Linux Cluster Administration (LCA) team workload in tracking the platform performance. The scripts support users in setting up and controlling a Postgres Database in Docker, creating tables for data storage and analytic purposes, and extracting the hardware details and resource usage.
 
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]: To be updated
+
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/python_data_anlytics)]: To be updated
+
+**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: To be updated
+
+**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: To be updated
+
+**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: To be updated
+
 
 ## Professional Experiences
 
-**Data Engineer, Jarvis (2023-present)**: Engaged in various projects and bolstered my skills and proficiency in data engineering, encompassing Linux, SQL, Python, Spark, and Hadoop. Having hands-on experience in Git & Docker.
+**Data Engineer, Jarvis (2023-present)**: Engaged in various projects and bolstered my skills and proficiency in data engineering, encompassing the area of Linux, SQL, Python, Spark, and Hadoop. Working in an agile team. Having hands-on experience in Git & Docker.
 
 **Data Engineer, IBM (2021-2023)**: Leveraged tools like Informatica, Apache Airflow, and AWS services to architect scalable and efficient data integration workflows, encompassed ingesting data from various sources (e.g csv, json, xml), employing Python in data cleansing and transformation, automated routine tasks in Bash. Also, maintained data warehouse integrity and swiftly rectify defects. Built report in Cognos & SQL.
 
