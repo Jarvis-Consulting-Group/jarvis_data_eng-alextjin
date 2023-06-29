@@ -1,126 +1,39 @@
-# Introduction
+# Alex Tjin . Jarvis Consulting
 
-This project aims to reduce the Linux Cluster Administration (LCA) team workload by designing a script to track the instance performance. The LCA team is responsible for monitoring the performance of our Linux platform. It needs to record both the hardware specifications of each node and the node resource in real time. Therefore, I developed a minimum viable product for testing purposes. So I can identify its functionality and the potential for improvement.
+Dedicated Data Engineer with 3+ years of overall IT development experience in data ingestion and integration. Skills cover data pipelines & ETL development. Proficient in Python, SQL, database and Linux. Also, with hands-on experience in ETL tools Informatica, Airflow and computing in AWS. Fluent in English and Chinese. An astute and unflappable individual, who is eager to learn and loves to take challenges, craves chances to explore new trends and technological advancements in the data field. To make data accessible, pivotal and reliable in every decision-making.
 
-I used docker to implement and test the design as it is a cost-efficient and handy approach which could ensure the script can run consistently regardless of where it is. To ease the docker setup and control, the 'psql_docker.sh' helps users to create and trigger the container. Also, the 'ddl.sql' defined the tables' structure, which has sufficient but not too much information for analytic purposes. To x`, 'host_info.sh' and 'host_usage.sh' will extract the details from the Linux platform. The resources usage script is scheduled with crontab to collect the data continuously and minimise all unnecessary manual involvement. All the related data will be stored in the PSQL instance for data analytics purposes in the future. I used Git as the version control tool for this project, and all the related scripts are accessible on GitHub.
+## Skills
 
-# Quick Start
-Here are some commands to trigger the scripts.
-- Start a psql instance using psql_docker.sh. 
-    ```
-    psql_docker.sh start
-    ```
-- Create tables using ddl.sql
-    ```
-    psql -h localhost -U postgres -d host_agent -f ddl.sql
-    ```
-- Insert hardware specs data into the DB using host_info.sh
-    ```
-    # Script usage
-    host_info.sh psql_host psql_port db_name psql_user psql_password
+**Proficient:** SQL, Python, Linux, Bash Sccripting, Data Warehouse, Data Pipeline, Informatica
 
-    ## Example
-    host_info.sh localhost 5432 host_agent postgres mypassword
-    ```
-- Insert hardware usage data into the DB using host_usage.sh
-    ```
-    bash scripts/host_usage.sh localhost 5432 host_agent postgres password
-    ```
-- Crontab setup
-    ```
-    # edit crontab
-    crontab -e
+**Competent:** Airflow, AWS, Redshift, Oracle, Spark
 
-    #adding the job crontab
-    * * * * * /home/centos/dev/jarvis_data_eng_alex/linux_sql/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
-    ```
+**Familiar:** VBA, Data Visualisation, Regression Testing, Docker, Git
 
-# Implemenation
-## Architecture
-Draw a cluster diagram with three Linux hosts, a DB, and agents (use draw.io website). Image must be saved to the `assets` directory.
+## Jarvis Projects
 
-## Scripts
-Shell script description and usage (use markdown code block for script usage)
-- psql_docker.sh
-    > This script is designed to set up a psql instance using docker. User can rather create, start or stop the container.
-     ```
-    # script usage
-    psql_docker.sh start stop|create [db_username][db_password]
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_demo)
 
-    # examples
-    ## create a psql docker container with the given username and password.
-    psql_docker.sh create db_username db_password
 
-    ## start the stoped psql docker container
-    psql_docker.sh start
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/masterhttps://github.com/Jarvis-Consulting-Group/jarvis_data_eng-alextjin/tree/master/linux_sql)]: Developed four different scripts which facilitate the Linux Cluster Administration (LCA) team workload in tracking the platform performance. The scripts support users in setting up and controlling a Postgres Database in Docker, creating tables for data storage and analytic purposes, and extracting the hardware details and resource usage.
 
-    ## stop the running psql docker container
-    psql_docker.sh stop
-    ```
-- host_info.sh
-    > This script collects hardware specification data and then inserts the data into the psql instance.
-    ```
-    # Script usage
-    ./scripts/host_info.sh psql_host psql_port db_name psql_user psql_password
 
-    # Example
-    ./scripts/host_info.sh "localhost" 5432 "host_agent" "postgres" "mypassword"
-    ```
-- host_usage.sh
-    > This script collects server usage data and then inserts the data into the psql database
-    ```
-    # Script usage
-    bash scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password
+## Professional Experiences
 
-    # Example
-    bash scripts/host_usage.sh "localhost" 5432 "host_agent" "postgres" "mypassword"
-    ```
-- crontab
-    ```
-    #edit crontab jobs
-    crontab -e
+**Data Engineer, Jarvis (2023-present)**: Engaged in various projects and bolstered my skills and proficiency in data engineering, encompassing Linux, SQL, Python, Spark, and Hadoop. Having hands-on experience in Git & Docker.
 
-    #add this to crontab
-    * * * * *  bash /home/centos/dev/jarvis_data_eng_alex/linux_sql/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
+**Data Engineer, IBM (2021-2023)**: Leveraged tools like Informatica, Apache Airflow, and AWS services to architect scalable and efficient data integration workflows, encompassed ingesting data from various sources (e.g csv, json, xml), employing Python in data cleansing and transformation, automated routine tasks in Bash. Also, maintained data warehouse integrity and swiftly rectify defects. Built report in Cognos & SQL.
 
-    #list crontab jobs
-    crontab -l
-    ```
-- queries.sql (describe what business problem you are trying to resolve) #to be updated
-    ```
-    ```
 
-## Database Modeling
-Describe the schema of each table using markdown table syntax (do not put any sql code)
-- `host_info`
-    | Column Name | Data Type | Nullable|
-    | ----------- | ----------- |-----------|
-    | id | SERIAL | NOT NULL|
-    | hostname | VARCHAR | NOT NULL|
-    | cpu_number| INT2 | NOT NULL|
-    | cpu_architecture| VARCHAR | NOT NULL|
-    | cpu_model| INT2 | NOT NULL|
-    | cpu_mhz| VARCHAR | NOT NULL|
-    | l2_cache| FLOAT8 | NOT NULL|
-    | timestamp| TIMESTAMP | NOT NULL|
-    | total_mem| INT4 | NOT NULL|
-- `host_usage`
-    | Column Name | Data Type | Nullable|
-    | ----------- | ----------- |-----------|
-    | timestamp | TIMESTAMP | NOT NULL|
-    | host_id | SERIAL | NOT NULL|
-    | memory_free| INT4 | NOT NULL|
-    | cpu_idle| INT2 | NOT NULL|
-    | cpu_kernel| INT2 | NOT NULL|
-    | disk_io| INT4 | NOT NULL|
-    | disk_available| INT4 | NOT NULL|
-# Test
-The bash script testing is done with mutiple trial runs, including valid & invalid cases. Only inputting appropiate parameters will lead to a desirable result. Otherwise, all the results should return error.
+## Education
+**City University of Hong Kong (2016-2020)**, Bachelor of Business Administration, Department of Management
+- Scholarship
+- Dean's List 2019 - 2020
+- Joseph Lau Student Exchange Awards
+- Hong Kong Hua-Yan Buddhist Association Exchange Scholarships
+- GPA: 3.54/4.0
 
-# Deployment
-`host_usage` is scheduled in crontab to data collection purposes. All the relevant scripts are deployed in Github. 
 
-# Improvements
-- support multiple database options
-- provide analysed reports by views
-- send email alert when daily job run failed
+## Miscellaneous
+- Microsoft Certified: Azure Data Fundamentals
+- IBM Agile Explorer
