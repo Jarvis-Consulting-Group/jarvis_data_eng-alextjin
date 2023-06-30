@@ -18,26 +18,25 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/masterhttps://github.com/Jarvis-Consulting-Group/jarvis_data_eng-alextjin/tree/master/linux_sql)]: Reduced the workload of the Linux Cluster Administration (LCA) team by developing several scripts that track instance performance. I used Docker in implementation and testing to ensure consistent execution. The 'psql_docker.sh' script facilitates container creation and activation. 'host_info.sh' and 'host_usage.sh' extract platform details, with the latter scheduled using crontab for continuous data collection, minimizing manual intervention. All data is stored in a PSQL instance for future analytics. Git was utilized as the version control tool, with all project scripts accessible on GitHub for collaboration and transparency.
 
-[//]: <> **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]: To be updated
+<!--- **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]: --->
 
-[//]: <> **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/python_data_anlytics)]: To be updated
+<!--- **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/python_data_anlytics)]: --->
 
-[//]: <> **Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: To be updated
+<!--- **Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: --->
 
-[//]: <> **Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: To be updated
+<!--- **Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: --->
 
-[//]: <> **Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: To be updated
+<!--- **Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: --->
 
 
 ## Professional Experiences
 
-**Data Engineer, Jarvis (2023-present)**: Engaged in diverse projects, I have significantly enhanced my skills and expertise in the field of data engineering. My proficiency extends to areas such as Linux administration, SQL, and Python programming, as well as utilizing Spark and Hadoop for data processing and analysis. Collaborating within an agile team environment, I have gained valuable hands-on experience with Git for version control and Docker for containerization. 
+**Data Engineer, Jarvis (2023-present)**: Engaged in diverse projects, I have significantly enhanced my skills and expertise in the field of data engineering. My proficiency extends to areas such as Bash, SQL, and Python programming, as well as utilizing Spark and Hadoop for data processing and analysis. Collaborating within an agile team environment, I have gained valuable hands-on experience with Git for version control and Docker for containerization. 
 **Data Engineer, IBM (2021-2023)**: Leveraged industry-leading tools like Informatica, Apache Airflow, and AWS services to architect highly scalable and efficient data integration workflows. My responsibilities encompassed extracting data from diverse sources, including CSV, JSON, and XML formats, and employing Python for meticulous data cleansing and transformation. I automated routine tasks through proficient Bash scripting. Ensuring data warehouse integrity was a priority, and I swiftly addressed any defects that arose. Additionally, I possess proficiency in building comprehensive reports using Cognos and SQL, enabling effective data visualization and analysis.
 
 
 ## Education
 **City University of Hong Kong (2016-2020)**, Bachelor of Business Administration, Department of Management
-- Scholarship
 - Dean's List 2019 - 2020
 - Joseph Lau Student Exchange Awards
 - Hong Kong Hua-Yan Buddhist Association Exchange Scholarships
