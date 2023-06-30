@@ -46,4 +46,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 ## Miscellaneous
 - Microsoft Certified: Azure Data Fundamentals
 - IBM Agile Explorer
+<<<<<<< HEAD
 - Hodophile
+=======
+>>>>>>> 6651127addfcca1d6c5814c49dc43d0b75a0e400
