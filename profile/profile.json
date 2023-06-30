@@ -2,11 +2,10 @@
   "education": [
     {
       "awards_achievements": [
-        "Scholarship",
         "Dean's List 2019 - 2020",
         "Joseph Lau Student Exchange Awards",
         "Hong Kong Hua-Yan Buddhist Association Exchange Scholarships",
-        "GPA: 3.54/4.0"
+        "GPA: 3.54/4.3"
       ],
       "degree": "Bachelor of Business Administration",
       "department": "Department of Management",
@@ -14,58 +13,18 @@
       "school_name": "City University of Hong Kong"
     }
   ],
-  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_demo",
+  "github_repo_root_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-alextjin",
   "highlighted_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
-      "name": "Web app for resturant"
-    },
-    {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": null,
-      "name": "Machine Learning"
+      "description": "I played a significant role in an on-prem-to-cloud project that involved integrating new data sources. I actively contributed by establishing connections with these new data sources and constructing the project-specific database. This involved creating over 650 tables to facilitate efficient data storage and retrieval. Additionally, I designed and developed more than 20 ETL workflows using Informatica, ensuring smooth data transformations and transfers. To optimize operations, I leveraged Airflow and worked on three DAGs (Directed Acyclic Graphs) for workflow orchestration. Furthermore, I implemented bash scripts to automate tasks and monitor the performance of these workflows, enabling streamlined operations and efficient performance monitoring.",
+      "name": "RISE"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Developed four different scripts which facilitate the Linux Cluster Administration (LCA) team workload in tracking the platform performance. The scripts support users in setting up and controlling a Postgres Database in Docker, creating tables for data storage and analytic purposes, and extracting the hardware details and resource usage.",
+      "description": "Reduced the workload of the Linux Cluster Administration (LCA) team by developing several scripts that track instance performance. I used Docker in implementation and testing to ensure consistent execution. The 'psql_docker.sh' script facilitates container creation and activation. 'host_info.sh' and 'host_usage.sh' extract platform details, with the latter scheduled using crontab for continuous data collection, minimizing manual intervention. All data is stored in a PSQL instance for future analytics. Git was utilized as the version control tool, with all project scripts accessible on GitHub for collaboration and transparency.",
       "git_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-alextjin/tree/master/linux_sql",
       "name": "Cluster Monitor"
-    },
-    {
-      "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      ],
-      "git_url": "/core_java",
-      "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Alex Tjin",
@@ -76,12 +35,19 @@
         "IBM Agile Explorer"
       ],
       "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Basketball player",
+        "Hodophile"
+      ],
+      "title": "Activities/Hobbies"
     }
   ],
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Engaged in various projects and bolstered my skills and proficiency in data engineering, encompassing Linux, SQL, Python, Spark, and Hadoop. Having hands-on experience in Git \u0026 Docker.",
+      "description": "Engaged in various projects and bolstered my skills and proficiency in data engineering, encompassing the area of Linux, SQL, Python, Spark, and Hadoop. Working in an agile team. Having hands-on experience in Git \u0026 Docker.",
       "duration": "2023-present",
       "title": "Data Engineer"
     },
@@ -96,26 +62,26 @@
     "competent": [
       "Airflow",
       "AWS",
-      "Redshift",
-      "Oracle",
-      "Spark"
+      "Spark",
+      "Data Warehousing",
+      "Git",
+      "Docker"
     ],
     "familiar": [
       "VBA",
       "Data Visualisation",
       "Regression Testing",
-      "Docker",
-      "Git"
+      "Hadoop",
+      "GCP"
     ],
     "proficient": [
       "SQL",
       "Python",
-      "Linux",
-      "Bash Sccripting",
-      "Data Warehouse",
-      "Data Pipeline",
+      "Bash",
+      "Redshift",
+      "Oracle",
       "Informatica"
     ]
   },
-  "summary": "Dedicated Data Engineer with 3+ years of overall IT development experience in data ingestion and integration. Skills cover data pipelines \u0026 ETL development. Proficient in Python, SQL, database and Linux. Also, with hands-on experience in ETL tools Informatica, Airflow and computing in AWS. Fluent in English and Chinese. An astute and unflappable individual, who is eager to learn and loves to take challenges, craves chances to explore new trends and technological advancements in the data field. To make data accessible, pivotal and reliable in every decision-making."
+  "summary": "As a dedicated Data Engineer, I bring over three years of comprehensive IT development experience to the table. My expertise primarily revolves around data ingestion and integration, where I excel in leveraging Python, SQL, and Bash to seamlessly handle data workflows. I possess extensive knowledge of diverse databases, including Redshift, Oracle, and Postgres, allowing me to efficiently manage and manipulate data at scale. Furthermore, I have honed my skills in constructing robust Data Pipelines utilizing cutting-edge ETL tools like Informatica and Airflow. These tools enable me to orchestrate and automate complex data processes, ensuring streamlined data integration and efficient information flow. Also, I have acquired valuable exposure and hands-on experience with the three major cloud service providers AWS, Azure, and GCP, which enable me to design and implement scalable and performant data solutions that leverage the power and versatility of these platforms."
 }

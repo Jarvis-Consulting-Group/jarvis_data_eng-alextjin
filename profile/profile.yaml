@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: As a dedicated Data Engineer, I bring over 3 years of comprehensive IT development experience to the table. My expertise primarily revolves around data ingestion and integration, where I excel in leveraging Python, SQL, and Bash to seamlessly handle data workflows. I possess extensive knowledge of diverse databases, including Redshift, Oracle, and Postgres, allowing me to efficiently manage and manipulate data at scale. Furthermore, I have honed my skills in constructing robust Data Pipelines utilizing cutting-edge ETL tools like Informatica and Airflow. These tools enable me to orchestrate and automate complex data processes, ensuring streamlined data integration and efficient information flow. Also, I have acquired valuable exposure and hands-on experience with the three major cloud service providers: AWS, Azure, and GCP, which enable me to design and implement scalable and performant data solutions that leverage the power and versatility of these platforms.
+summary: As a dedicated Data Engineer, I bring over three years of comprehensive IT development experience to the table. My expertise primarily revolves around data ingestion and integration, where I excel in leveraging Python, SQL, and Bash to seamlessly handle data workflows. I possess extensive knowledge of diverse databases, including Redshift, Oracle, and Postgres, allowing me to efficiently manage and manipulate data at scale. Furthermore, I have honed my skills in constructing robust Data Pipelines utilizing cutting-edge ETL tools like Informatica and Airflow. These tools enable me to orchestrate and automate complex data processes, ensuring streamlined data integration and efficient information flow. Also, I have acquired valuable exposure and hands-on experience with the three major cloud service providers AWS, Azure, and GCP, which enable me to design and implement scalable and performant data solutions that leverage the power and versatility of these platforms.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -32,6 +32,7 @@ skills:
     - Data Visualisation
     - Regression Testing
     - Hadoop
+    - GCP
 
 # List of Jarvis projects
 jarvis_projects:
@@ -64,13 +65,13 @@ jarvis_projects:
 
 # List of personal or academic projects
 # Feel free to add more projects
-#highlighted_projects:
+highlighted_projects:
     #project name
- # - name: "Web app for resturant"
+  - name: "RISE"
     #URL is optional
   #  git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-   # description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    #  The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: I played a significant role in an on-prem-to-cloud project that involved integrating new data sources. I actively contributed by establishing connections with these new data sources and constructing the project-specific database. This involved creating over 650 tables to facilitate efficient data storage and retrieval. Additionally, I designed and developed more than 20 ETL workflows using Informatica, ensuring smooth data transformations and transfers. To optimize operations, I leveraged Airflow and worked on three DAGs (Directed Acyclic Graphs) for workflow orchestration. Furthermore, I implemented bash scripts to automate tasks and monitor the performance of these workflows, enabling streamlined operations and efficient performance monitoring.
  # - name: "Machine Learning"
   #  git_url:
    # description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
