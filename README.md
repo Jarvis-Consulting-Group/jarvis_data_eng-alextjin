@@ -19,7 +19,7 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 
 ## Highlighted Projects
-**RISE**: I played a significant role in an on-prem-to-cloud project that involved integrating new data sources. I actively contributed by establishing connections with these new data sources and constructing the project-specific database. This involved creating over 650 tables to facilitate efficient data storage and retrieval. Additionally, I designed and developed more than 20 ETL workflows using Informatica, ensuring smooth data transformations and transfers. To optimize operations, I leveraged Airflow and worked on three DAGs (Directed Acyclic Graphs) for workflow orchestration. Furthermore, I implemented bash scripts to automate tasks and monitor the performance of these workflows, enabling streamlined operations and efficient performance monitoring.
+**RISE**: I played a significant role in an on-prem-to-cloud project that involved integrating new data sources. I actively contributed by establishing connections with these new data sources and constructing the project-specific database. This involved creating over 650 tables to facilitate efficient data storage and retrieval. Additionally, I designed and developed more than 20 ETL workflows using Informatica, ensuring smooth data transformations and transfers. To optimize operations, I leveraged Airflow and worked on more than 10 DAGs (Directed Acyclic Graphs) for workflow orchestration to ingest files from AWS S3 and send outbound files to different business users. Furthermore, I implemented bash scripts to automate tasks and monitor the performance of these workflows, enabling streamlined operations and efficient performance monitoring.
 
 
 ## Professional Experiences
