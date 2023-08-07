@@ -12,6 +12,11 @@ summary: As a dedicated Data Engineer, I bring over three years of comprehensive
 skills:
   # At least 5 skills
   proficient:
+    - Javascript
+    - Typescript
+    - Node
+    - Angular
+    - REST API
     - SQL
     - Python
     - Bash

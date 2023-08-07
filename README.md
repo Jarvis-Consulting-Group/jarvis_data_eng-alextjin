@@ -4,7 +4,7 @@ As a dedicated Data Engineer, I bring over three years of comprehensive IT devel
 
 ## Skills
 
-**Proficient:** SQL, Python, Bash, Redshift, Oracle, Informatica
+**Proficient:** Javascript, Typescript, Node, Angular, REST API, SQL, Python, Bash, Redshift, Oracle, Informatica
 
 **Competent:** Airflow, AWS, Spark, Data Warehousing, Git, Docker
 
