@@ -77,9 +77,9 @@ highlighted_projects:
   #  git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
     #  The project description must start with an action verb (https://bit.ly/3guO98u)
     description: I played a significant role in an on-prem-to-cloud project that involved integrating new data sources. I actively contributed by establishing connections with these new data sources and constructing the project-specific database. This involved creating over 650 tables to facilitate efficient data storage and retrieval. Additionally, I designed and developed more than 20 ETL workflows using Informatica, ensuring smooth data transformations and transfers. To optimize operations, I leveraged Airflow and worked on three DAGs (Directed Acyclic Graphs) for workflow orchestration. Furthermore, I implemented bash scripts to automate tasks and monitor the performance of these workflows, enabling streamlined operations and efficient performance monitoring.
- # - name: "Machine Learning"
-  #  git_url:
-   # description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+  - name: "Library System Management App"
+    git_url:
+    description: I built a library system management app designed to manage all the functions of a library. Users can do all the CRUD operations for books. The frontend is designed with Angular and the backend is held by Express Web Framework. I also adopted Angular Material, MySQL to enhance the web functionality and data storage. Unit test has benn conduct with Jest. 
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).

@@ -18,6 +18,11 @@
     {
       "description": "I played a significant role in an on-prem-to-cloud project that involved integrating new data sources. I actively contributed by establishing connections with these new data sources and constructing the project-specific database. This involved creating over 650 tables to facilitate efficient data storage and retrieval. Additionally, I designed and developed more than 20 ETL workflows using Informatica, ensuring smooth data transformations and transfers. To optimize operations, I leveraged Airflow and worked on three DAGs (Directed Acyclic Graphs) for workflow orchestration. Furthermore, I implemented bash scripts to automate tasks and monitor the performance of these workflows, enabling streamlined operations and efficient performance monitoring.",
       "name": "RISE"
+    },
+    {
+      "description": "I built a library system management app designed to manage all the functions of a library. Users can do all the CRUD operations for books. The frontend is designed with Angular and the backend is held by Express Web Framework. I also adopted Angular Material, MySQL to enhance the web functionality and data storage. Unit test has benn conduct with Jest.",
+      "git_url": null,
+      "name": "Library System Management App"
     }
   ],
   "jarvis_projects": [
