@@ -5,32 +5,32 @@ github_repo_root_url: https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: As a dedicated Data Engineer, I bring over three years of comprehensive IT development experience to the table. My expertise primarily revolves around data ingestion and integration, where I excel in leveraging Python, SQL, and Bash to seamlessly handle data workflows. I possess extensive knowledge of diverse databases, including Redshift, Oracle, and Postgres, allowing me to efficiently manage and manipulate data at scale. Furthermore, I have honed my skills in constructing robust Data Pipelines utilizing cutting-edge ETL tools like Informatica and Airflow. These tools enable me to orchestrate and automate complex data processes, ensuring streamlined data integration and efficient information flow. Also, I have acquired valuable exposure and hands-on experience with the three major cloud service providers AWS, Azure, and GCP, which enable me to design and implement scalable and performant data solutions that leverage the power and versatility of these platforms.
+summary: As a dedicated Data Engineer, I bring over four years of comprehensive IT development experience to the table. My expertise primarily revolves around data ingestion and integration, where I excel in leveraging Python, SQL, Spark and Azure to seamlessly handle data workflows. I possess extensive knowledge of diverse databases, including Redshift, Oracle, and Postgres, allowing me to efficiently manage and manipulate data at scale. Furthermore, I have honed my skills in constructing robust Data Pipelines utilizing cutting-edge ETL tools like Informatica and Airflow. These tools enable me to orchestrate and automate complex data processes, ensuring streamlined data integration and efficient information flow. Also, I have acquired valuable exposure and hands-on experience with the three major cloud service providers AWS, Azure, and GCP, which enable me to design and implement scalable and performant data solutions that leverage the power and versatility of these platforms.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
+    - SQL
+    - Python
+    - Spark
+    - Airflow
+    - Databricks
+    - Azure Data Factory
+    - AWS
+    - Azure Cloud Services
+    - Data Modelling
+    - Git
+    - Docker
+  # At least 5 skills
+  competent:
     - Javascript
     - Typescript
     - Node
     - Angular
     - REST API
-    - SQL
-    - Python
     - Bash
-    - Redshift
-    - Oracle
-    - Informatica
-  # At least 5 skills
-  competent:
-    - Airflow
-    - AWS
-    - Spark
-    - Data Warehousing
-    - Git
-    - Docker
   # At least 5 skills
   familiar:
     - VBA
@@ -71,12 +71,15 @@ jarvis_projects:
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
-    #project name
-  - name: "RISE"
-    #URL is optional
+  #project name
+  - name: "XML to CSV conversion"
   #  git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
-    #  The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: I played a significant role in an on-prem-to-cloud project that involved integrating new data sources. I actively contributed by establishing connections with these new data sources and constructing the project-specific database. This involved creating over 650 tables to facilitate efficient data storage and retrieval. Additionally, I designed and developed more than 20 ETL workflows using Informatica, ensuring smooth data transformations and transfers. To optimize operations, I leveraged Airflow and worked on three DAGs (Directed Acyclic Graphs) for workflow orchestration. Furthermore, I implemented bash scripts to automate tasks and monitor the performance of these workflows, enabling streamlined operations and efficient performance monitoring.
+  #  The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: I built a reusable scripts to handle XML to CSV conversion. lxml is adopted for parsing the data. The script can support parsing the data from different root and layer. All the parent and child data would be captured.
+  - name: "IBOR (Investment Book of Record) Data Package"
+    description: I was responsible to build data pipelines for the middle office book keeping. We retrieved data from our vendor via APIs request. I utilised AWS s3, Airflow and Spark for data ingestion, transformation and loading phases. Adopted Great Expectation for data quality checking.
+  - name: "RISE"
+    description: I played a significant role in an on-prem-to-cloud project that involved integrating new data sources. I actively contributed by establishing connections with new data sources and constructing the project-specific database. This involved creating over 650 tables to facilitate efficient data storage and retrieval. Additionally, I designed and developed more than 20 ETL workflows using Informatica, ensuring smooth data transformations and transfers. To optimize operations, I leveraged Airflow and worked on three DAGs (Directed Acyclic Graphs) for workflow orchestration. Furthermore, I implemented bash scripts to automate tasks and monitor the performance of these workflows, enabling streamlined operations and efficient performance monitoring.
   - name: "Library System Management App"
     git_url:
     description: I built a library system management app designed to manage all the functions of a library. Users can do all the CRUD operations for books. The frontend is designed with Angular and the backend is held by Express Web Framework. I also adopted Angular Material, MySQL to enhance the web functionality and data storage. Unit test has benn conduct with Jest. 
@@ -86,15 +89,19 @@ highlighted_projects:
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
-  - title: "Data Engineer"
-    company: "Jarvis"
+  - title: "Full Stack Developer"
+    company: "RBC"
     duration: "2023-present"
    #  The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Engaged in various projects and bolstered my skills and proficiency in data engineering, encompassing the area of Linux, SQL, Python, Spark, and Hadoop. Working in an agile team. Having hands-on experience in Git & Docker."
+    description: "Played a pivotal role contributing to both Full Stack Development and Data Engineering initiatives. Being full responsible for comprehensive Data Pipeline development, from Data Modeling to report generation in Power BI, utilizing Python, Spark, and Airflow. Also, contributed in the migration from on-premises to cloud with Azure cloud services like ADF and Databricks."
+  - title: "Full Stack Developer"
+    company: "Jarvis"
+    duration: "2023-present"
+    description: "Engaged in various projects and bolstered my skills and proficiency in data engineering, encompassing the area of SQL, Python, Spark and Linux."
   - title: "Data Engineer"
     company: "IBM"
     duration: "2021-2023"
-    description: "Leveraged tools like Informatica, Apache Airflow, and AWS services to architect scalable and efficient data integration workflows, encompassed ingesting data from various sources (e.g csv, json, xml), employing Python in data cleansing and transformation, automated routine tasks in Bash. Also, maintained data warehouse integrity and swiftly rectify defects. Built report in Cognos & SQL."
+    description: "Leveraged tools like Informatica, Apache Airflow, and AWS services to architect scalable and efficient data integration workflows, encompassed ingesting data from various sources (e.g csv, json, xml), employing Python in data cleansing and transformation, automated routine tasks in Bash. Also, maintained data warehouse integrity and swiftly rectify defects. Built report with IBM Cognos."
 
 #List of edcuation
 education: 
